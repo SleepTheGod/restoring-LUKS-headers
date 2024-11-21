@@ -4,7 +4,7 @@ This script automates LUKS encryption management tasks. It dynamically detects L
 
 
 example
-
+```
 root@kali:~# openssl enc -d -aes-256-cbc -in luksheader.back.enc -out luksheader.back
 enter aes-256-cbc decryption password:
 root@kali:~# cryptsetup luksHeaderRestore --header-backup-file luksheader.back /dev/sda5
@@ -42,3 +42,4 @@ Key Slot 4: DISABLED
 Key Slot 5: DISABLED
 Key Slot 6: DISABLED
 Key Slot 7: DISABLED
+```
