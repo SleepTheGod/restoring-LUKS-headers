@@ -43,6 +43,7 @@ Key Slot 5: DISABLED
 Key Slot 6: DISABLED
 Key Slot 7: DISABLED
 ```
+```
 How to Nuke your Encrypted Kali Installation
 There’s been a fair amount of discussion around the recently introduced LUKS nuke patch we added to the cryptsetup package in Kali Linux. We wanted to take this opportunity to better explain this feature, as well as demonstrate some useful approaches which are worthwhile getting to know.
 
@@ -175,3 +176,4 @@ Key Slot 5: DISABLED
 Key Slot 6: DISABLED
 Key Slot 7: DISABLED
 Our slots are now restored. All we have to do is simply reboot and provide our normal LUKS password and the system is back to its original state.
+```
